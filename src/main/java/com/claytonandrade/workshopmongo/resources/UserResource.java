@@ -19,7 +19,7 @@ import com.claytonandrade.workshopmongo.dto.UserDTO;
 import com.claytonandrade.workshopmongo.services.UserService;
 
 @RestController
-@RequestMapping(value = "/users")
+@RequestMapping(value="/users")
 public class UserResource {
 	
 	@Autowired
